@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c9870dac-e331-4584-83bd-b9b40055faf7" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../Mooc_Project/backend_exercise_sapo/integrated-chat-gpt_BackEnd/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Mooc_Project/backend_exercise_sapo/integrated-chat-gpt_BackEnd/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Mooc_Project/backend_exercise_sapo/integrated-chat-gpt_BackEnd/src/main/java/com/example/integratedchatgpt_backend/IntegratedChatGptBackEndApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Mooc_Project/backend_exercise_sapo/integrated-chat-gpt_BackEnd/src/main/java/com/example/integratedchatgpt_backend/config/ApplicationConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Mooc_Project/backend_exercise_sapo/integrated-chat-gpt_BackEnd/src/main/java/com/example/integratedchatgpt_backend/config/CorsConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Mooc_Project/backend_exercise_sapo/integrated-chat-gpt_BackEnd/src/main/java/com/example/integratedchatgpt_backend/controller/CategoryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Mooc_Project/backend_exercise_sapo/integrated-chat-gpt_BackEnd/src/main/java/com/example/integratedchatgpt_backend/controller/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Mooc_Project/backend_exercise_sapo/integrated-chat-gpt_BackEnd/src/main/java/com/example/integratedchatgpt_backend/controller/PromptController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Mooc_Project/backend_exercise_sapo/integrated-chat-gpt_BackEnd/src/main/java/com/example/integratedchatgpt_backend/database/database.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Mooc_Project/backend_exercise_sapo/integrated-chat-gpt_BackEnd/src/main/java/com/example/integratedchatgpt_backend/dto/ProductQuantityDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Mooc_Project/backend_exercise_sapo/integrated-chat-gpt_BackEnd/src/main/java/com/example/integratedchatgpt_backend/dto/ProductSellTotalDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Mooc_Project/backend_exercise_sapo/integrated-chat-gpt_BackEnd/src/main/java/com/example/integratedchatgpt_backend/entity/BaseEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Mooc_Project/backend_exercise_sapo/integrated-chat-gpt_BackEnd/src/main/java/com/example/integratedchatgpt_backend/entity/CategoryEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Mooc_Project/backend_exercise_sapo/integrated-chat-gpt_BackEnd/src/main/java/com/example/integratedchatgpt_backend/entity/ProductEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Mooc_Project/backend_exercise_sapo/integrated-chat-gpt_BackEnd/src/main/java/com/example/integratedchatgpt_backend/entity/PromptEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Mooc_Project/backend_exercise_sapo/integrated-chat-gpt_BackEnd/src/main/java/com/example/integratedchatgpt_backend/exception/AlreadyExistException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Mooc_Project/backend_exercise_sapo/integrated-chat-gpt_BackEnd/src/main/java/com/example/integratedchatgpt_backend/exception/UnknowException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Mooc_Project/backend_exercise_sapo/integrated-chat-gpt_BackEnd/src/main/java/com/example/integratedchatgpt_backend/reponsitory/CategoryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Mooc_Project/backend_exercise_sapo/integrated-chat-gpt_BackEnd/src/main/java/com/example/integratedchatgpt_backend/reponsitory/ProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Mooc_Project/backend_exercise_sapo/integrated-chat-gpt_BackEnd/src/main/java/com/example/integratedchatgpt_backend/reponsitory/PromptRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Mooc_Project/backend_exercise_sapo/integrated-chat-gpt_BackEnd/src/main/java/com/example/integratedchatgpt_backend/response/ErrorMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Mooc_Project/backend_exercise_sapo/integrated-chat-gpt_BackEnd/src/main/java/com/example/integratedchatgpt_backend/response/ServerResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Mooc_Project/backend_exercise_sapo/integrated-chat-gpt_BackEnd/src/main/java/com/example/integratedchatgpt_backend/service/CategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Mooc_Project/backend_exercise_sapo/integrated-chat-gpt_BackEnd/src/main/java/com/example/integratedchatgpt_backend/service/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Mooc_Project/backend_exercise_sapo/integrated-chat-gpt_BackEnd/src/main/java/com/example/integratedchatgpt_backend/service/PromptService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Mooc_Project/backend_exercise_sapo/integrated-chat-gpt_BackEnd/src/main/java/com/example/integratedchatgpt_backend/service/impl/CategoryServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Mooc_Project/backend_exercise_sapo/integrated-chat-gpt_BackEnd/src/main/java/com/example/integratedchatgpt_backend/service/impl/ProductServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Mooc_Project/backend_exercise_sapo/integrated-chat-gpt_BackEnd/src/main/java/com/example/integratedchatgpt_backend/service/impl/PromptServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Mooc_Project/backend_exercise_sapo/integrated-chat-gpt_BackEnd/src/main/java/com/example/integratedchatgpt_backend/util/VNCharacterUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Mooc_Project/backend_exercise_sapo/integrated-chat-gpt_BackEnd/src/main/java/com/example/integratedchatgpt_backend/util/utilities.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Anhlt_Unittest/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Anhlt_Unittest/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Anhlt_Unittest/src/main/java/vn/sapo/demo/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Anhlt_Unittest/src/main/java/vn/sapo/demo/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Anhlt_Unittest/src/test/java/vn/sapo/demo/rest/CalculatorControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Anhlt_Unittest/src/test/java/vn/sapo/demo/rest/CalculatorControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Anhlt_Unittest/target/classes/vn/sapo/demo/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Anhlt_Unittest/target/classes/vn/sapo/demo/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Anhlt_Unittest/target/test-classes/vn/sapo/demo/rest/CalculatorControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Anhlt_Unittest/target/test-classes/vn/sapo/demo/rest/CalculatorControllerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ex10_HTML_CSS/assets/css/styte.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../Ex10_HTML_CSS/assets/css/styte.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ex10_HTML_CSS/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Ex10_HTML_CSS/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ex11_ReactJS-1/my-app/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../Ex11_ReactJS-1/my-app/src/App.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ex13_14_ReactJS-3_4/my-app-Copy/src/component/category/AddCategoryForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../Ex13_14_ReactJS-3_4/my-app-Copy/src/component/category/AddCategoryForm.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ex3_Mysql/Ex03_Mysql.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../../Ex3_Mysql/Ex03_Mysql.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ex4_Spring_Boot_Basic/spring-dependency-injection/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Ex4_Spring_Boot_Basic/spring-dependency-injection/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ex4_Spring_Boot_Basic/spring-dependency-injection/src/main/java/com/sapo/edu/demo/printer/Printer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Ex4_Spring_Boot_Basic/spring-dependency-injection/src/main/java/com/sapo/edu/demo/printer/Printer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ex7_Restful_API_Spring/spring-boot-rest-api/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Ex7_Restful_API_Spring/spring-boot-rest-api/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ex7_Restful_API_Spring/spring-boot-rest-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Ex7_Restful_API_Spring/spring-boot-rest-api/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ex7_Restful_API_Spring/spring-boot-rest-api/src/main/java/com/example/springbootjpa/controller/CategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Ex7_Restful_API_Spring/spring-boot-rest-api/src/main/java/com/example/springbootjpa/controller/CategoryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ex7_Restful_API_Spring/spring-boot-rest-api/src/main/java/com/example/springbootjpa/dto/BaseDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Ex7_Restful_API_Spring/spring-boot-rest-api/src/main/java/com/example/springbootjpa/dto/BaseDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ex7_Restful_API_Spring/spring-boot-rest-api/src/main/java/com/example/springbootjpa/entity/StorageEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Ex7_Restful_API_Spring/spring-boot-rest-api/src/main/java/com/example/springbootjpa/entity/StorageEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ex7_Restful_API_Spring/spring-boot-rest-api/src/main/java/com/example/springbootjpa/service/impl/CategoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Ex7_Restful_API_Spring/spring-boot-rest-api/src/main/java/com/example/springbootjpa/service/impl/CategoryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ex7_Restful_API_Spring/spring-boot-rest-api/src/main/java/com/example/springbootjpa/service/impl/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Ex7_Restful_API_Spring/spring-boot-rest-api/src/main/java/com/example/springbootjpa/service/impl/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ex7_Restful_API_Spring/spring-boot-rest-api/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../Ex7_Restful_API_Spring/spring-boot-rest-api/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ex7_Restful_API_Spring/spring-boot-rest-api/target/classes/Ex03_Mysql.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ex7_Restful_API_Spring/spring-boot-rest-api/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../Ex7_Restful_API_Spring/spring-boot-rest-api/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ex7_Restful_API_Spring/spring-boot-rest-api/target/classes/com/example/springbootjpa/config/JpaAuditingConfig$AuditorAwareImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Ex7_Restful_API_Spring/spring-boot-rest-api/target/classes/com/example/springbootjpa/config/JpaAuditingConfig$AuditorAwareImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ex7_Restful_API_Spring/spring-boot-rest-api/target/classes/com/example/springbootjpa/config/JpaAuditingConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Ex7_Restful_API_Spring/spring-boot-rest-api/target/classes/com/example/springbootjpa/config/JpaAuditingConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ex7_Restful_API_Spring/spring-boot-rest-api/target/classes/com/example/springbootjpa/controller/CategoryCotroller.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ex7_Restful_API_Spring/spring-boot-rest-api/target/classes/com/example/springbootjpa/controller/ProductController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Ex7_Restful_API_Spring/spring-boot-rest-api/target/classes/com/example/springbootjpa/controller/ProductController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ex7_Restful_API_Spring/spring-boot-rest-api/target/classes/com/example/springbootjpa/dto/BaseDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Ex7_Restful_API_Spring/spring-boot-rest-api/target/classes/com/example/springbootjpa/dto/BaseDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ex7_Restful_API_Spring/spring-boot-rest-api/target/classes/com/example/springbootjpa/dto/StorageDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Ex7_Restful_API_Spring/spring-boot-rest-api/target/classes/com/example/springbootjpa/dto/StorageDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ex7_Restful_API_Spring/spring-boot-rest-api/target/classes/com/example/springbootjpa/entity/BaseEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Ex7_Restful_API_Spring/spring-boot-rest-api/target/classes/com/example/springbootjpa/entity/BaseEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ex7_Restful_API_Spring/spring-boot-rest-api/target/classes/com/example/springbootjpa/entity/ProductEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Ex7_Restful_API_Spring/spring-boot-rest-api/target/classes/com/example/springbootjpa/entity/ProductEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ex7_Restful_API_Spring/spring-boot-rest-api/target/classes/com/example/springbootjpa/entity/ResponseObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Ex7_Restful_API_Spring/spring-boot-rest-api/target/classes/com/example/springbootjpa/entity/ResponseObject.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ex7_Restful_API_Spring/spring-boot-rest-api/target/classes/com/example/springbootjpa/entity/StorageEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Ex7_Restful_API_Spring/spring-boot-rest-api/target/classes/com/example/springbootjpa/entity/StorageEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ex7_Restful_API_Spring/spring-boot-rest-api/target/classes/com/example/springbootjpa/repository/StorageRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Ex7_Restful_API_Spring/spring-boot-rest-api/target/classes/com/example/springbootjpa/repository/StorageRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ex7_Restful_API_Spring/spring-boot-rest-api/target/classes/com/example/springbootjpa/service/impl/CategoryService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Ex7_Restful_API_Spring/spring-boot-rest-api/target/classes/com/example/springbootjpa/service/impl/CategoryService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ex7_Restful_API_Spring/spring-boot-rest-api/target/classes/com/example/springbootjpa/service/impl/ProductService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Ex7_Restful_API_Spring/spring-boot-rest-api/target/classes/com/example/springbootjpa/service/impl/ProductService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ex7_Restful_API_Spring/spring-boot-rest-api/target/test-classes/com/example/springbootjpa/SpringBootJpaApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Ex7_Restful_API_Spring/spring-boot-rest-api/target/test-classes/com/example/springbootjpa/SpringBootJpaApplicationTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springbootjpa/config/SecurityConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/springbootjpa/config/SecurityConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springbootjpa/config/security/JwtAuthenticationFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/springbootjpa/config/security/JwtAuthenticationFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springbootjpa/controller/CategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/springbootjpa/controller/CategoryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springbootjpa/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/springbootjpa/controller/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springbootjpa/entity/CategoryTypeEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/springbootjpa/entity/CategoryTypeEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springbootjpa/entity/ProductEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/springbootjpa/entity/ProductEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springbootjpa/entity/StorageEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/springbootjpa/entity/StorageEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springbootjpa/service/impl/CategoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/springbootjpa/service/impl/CategoryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springbootjpa/service/impl/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/springbootjpa/service/impl/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springbootjpa/service/impl/authentication/JwtService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/springbootjpa/service/impl/authentication/JwtService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/springbootjpa/config/SecurityConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/springbootjpa/config/SecurityConfiguration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/springbootjpa/config/security/JwtAuthenticationFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/springbootjpa/config/security/JwtAuthenticationFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/springbootjpa/controller/CategoryController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/springbootjpa/controller/CategoryController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/springbootjpa/controller/ProductController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/springbootjpa/controller/ProductController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/springbootjpa/entity/CategoryTypeEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/springbootjpa/entity/CategoryTypeEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/springbootjpa/entity/ProductEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/springbootjpa/entity/ProductEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/springbootjpa/entity/StorageEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/springbootjpa/entity/StorageEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/springbootjpa/service/impl/CategoryService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/springbootjpa/service/impl/CategoryService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/springbootjpa/service/impl/ProductService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/springbootjpa/service/impl/ProductService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/springbootjpa/service/impl/authentication/JwtService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/springbootjpa/service/impl/authentication/JwtService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_security/src/main/java/com/example/spring_security/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_security/src/main/java/com/example/spring_security/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ex8_Sql_Injection/sql_injection/src/main/java/com/example/sql_injection/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Ex8_Sql_Injection/sql_injection/src/main/java/com/example/sql_injection/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../unit-test-sample-master/unit-test-sample-master/demo3-final/src/main/java/vn/sapo/demo/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../unit-test-sample-master/unit-test-sample-master/demo3-final/src/main/java/vn/sapo/demo/AppConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../unit-test-sample-master/unit-test-sample-master/demo3-final/src/main/java/vn/sapo/demo/CacheService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../unit-test-sample-master/unit-test-sample-master/demo3-final/src/main/java/vn/sapo/demo/CalculatorService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../unit-test-sample-master/unit-test-sample-master/demo3-final/src/main/java/vn/sapo/demo/InMemoryCacheService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../unit-test-sample-master/unit-test-sample-master/demo3-final/src/main/java/vn/sapo/demo/RedisCacheService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../unit-test-sample-master/unit-test-sample-master/demo3-final/src/main/java/vn/sapo/demo/dal/CalculatorHistory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../unit-test-sample-master/unit-test-sample-master/demo3-final/src/main/java/vn/sapo/demo/dal/CalculatorHistoryRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../unit-test-sample-master/unit-test-sample-master/demo3-final/src/main/java/vn/sapo/demo/rest/CalculatorController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../unit-test-sample-master/unit-test-sample-master/demo3-final/src/main/java/vn/sapo/demo/rest/CalculatorRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../unit-test-sample-master/unit-test-sample-master/demo3-final/src/main/java/vn/sapo/demo/rest/CalculatorResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../unit-test-sample-master/unit-test-sample-master/demo3-final/src/test/java/vn/sapo/demo/AppTestConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../unit-test-sample-master/unit-test-sample-master/demo3-final/src/test/java/vn/sapo/demo/CalculatorServiceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../unit-test-sample-master/unit-test-sample-master/demo3-final/src/test/java/vn/sapo/demo/rest/CalculatorControllerTest.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Use Maven wrapper" />
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2NMJoY5a9xKdh4WKVFeeBS0pcfB" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/2022/WorkSpace/Thuc_Tap_20222/Ex8_Spring_Security/Ex8_Spring_Security&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;b49f600cc7381873bd80d87d3f22bedd&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\anhis\Desktop\2022\WorkSpace\Thuc_Tap_20222\Ex8_Spring_Security\spring-boot-rest-api\src\main\java\com\example\springbootjpa\dto" />
+      <recent name="C:\Users\anhis\Desktop\2022\WorkSpace\Thuc_Tap_20222\Ex8_Spring_Security\spring-boot-rest-api\src\main\java\com\example\springbootjpa\service\impl" />
+      <recent name="C:\Users\anhis\Desktop\2022\WorkSpace\Thuc_Tap_20222\Ex8_Spring_Security\spring-boot-rest-api\src\main\java\com\example\springbootjpa\repository" />
+      <recent name="C:\Users\anhis\Desktop\2022\WorkSpace\Thuc_Tap_20222\Ex8_Spring_Security\spring-boot-rest-api\src\main\java\com\example\springbootjpa\config" />
+      <recent name="C:\Users\anhis\Desktop\2022\WorkSpace\Thuc_Tap_20222\Ex8_Spring_Security\spring-boot-rest-api\src\main\java\com\example\springbootjpa\entity" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.springbootjpa.controller.authentication" />
+      <recent name="com.example.springbootjpa.dto" />
+      <recent name="com.example.springbootjpa.entity" />
+      <recent name="com.example.springbootjpa.config" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="SpringBootJpaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="spring-boot-jpa" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.springbootjpa.SpringBootJpaApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c9870dac-e331-4584-83bd-b9b40055faf7" name="Changes" comment="" />
+      <created>1679468193400</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1679468193400</updated>
+      <workItem from="1679468194607" duration="4337000" />
+      <workItem from="1679566699007" duration="475000" />
+      <workItem from="1679581426502" duration="5973000" />
+      <workItem from="1679636515131" duration="1829000" />
+      <workItem from="1679639423747" duration="5092000" />
+      <workItem from="1679658753161" duration="17034000" />
+      <workItem from="1679706642315" duration="24432000" />
+      <workItem from="1679741444608" duration="11752000" />
+      <workItem from="1679766139485" duration="1001000" />
+      <workItem from="1679805927123" duration="927000" />
+      <workItem from="1679836829340" duration="1254000" />
+      <workItem from="1679848244623" duration="2178000" />
+      <workItem from="1679879300097" duration="13836000" />
+      <workItem from="1679900190814" duration="1674000" />
+      <workItem from="1679903444427" duration="599000" />
+      <workItem from="1679925421707" duration="1491000" />
+      <workItem from="1680053042538" duration="6843000" />
+      <workItem from="1680142877996" duration="7558000" />
+      <workItem from="1680158805978" duration="535000" />
+      <workItem from="1680159370281" duration="5892000" />
+      <workItem from="1680368386423" duration="13000" />
+      <workItem from="1680488420785" duration="1417000" />
+      <workItem from="1680494234264" duration="2444000" />
+      <workItem from="1680535247984" duration="2350000" />
+      <workItem from="1680621178971" duration="1503000" />
+      <workItem from="1680623031617" duration="474000" />
+      <workItem from="1680775872736" duration="609000" />
+      <workItem from="1680858092959" duration="4013000" />
+      <workItem from="1680960729177" duration="614000" />
+      <workItem from="1681219976904" duration="2754000" />
+      <workItem from="1681223132512" duration="5945000" />
+      <workItem from="1681262053244" duration="599000" />
+      <workItem from="1681270586831" duration="1632000" />
+      <workItem from="1683534675586" duration="641000" />
+      <workItem from="1683886483588" duration="662000" />
+      <workItem from="1683992965083" duration="1851000" />
+      <workItem from="1684072452776" duration="10764000" />
+      <workItem from="1684084209494" duration="1349000" />
+      <workItem from="1684574708786" duration="1318000" />
+      <workItem from="1684591026403" duration="2709000" />
+      <workItem from="1684749067291" duration="1955000" />
+      <workItem from="1684767095047" duration="39000" />
+      <workItem from="1685196123191" duration="916000" />
+      <workItem from="1685349864205" duration="603000" />
+      <workItem from="1685373239607" duration="20000" />
+      <workItem from="1685806943387" duration="1781000" />
+      <workItem from="1686763199748" duration="651000" />
+      <workItem from="1686791412602" duration="1501000" />
+      <workItem from="1686796569938" duration="2876000" />
+      <workItem from="1686820475225" duration="2105000" />
+      <workItem from="1686834934376" duration="1200000" />
+      <workItem from="1686879312841" duration="331000" />
+      <workItem from="1686894610964" duration="277000" />
+      <workItem from="1686894904270" duration="611000" />
+      <workItem from="1686897195509" duration="1000000" />
+      <workItem from="1686899356793" duration="612000" />
+      <workItem from="1686912528142" duration="697000" />
+      <workItem from="1686927205123" duration="24000" />
+      <workItem from="1686927613992" duration="284000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/springbootjpa/service/impl/authentication/AuthenticationService.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/springbootjpa/service/impl/authentication/AuthenticationService.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/springbootjpa/config/security/JwtAuthenticationFilter.java</url>
+          <line>85</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.sql.SQLIntegrityConstraintViolationException" package="java.sql" />
+          <option name="timeStamp" value="3" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="java.util.Collections$UnmodifiableMap$UnmodifiableEntrySet$UnmodifiableEntry" memberName="key" />
+      </pinned-members>
+    </pin-to-top-manager>
+  </component>
+</project>
